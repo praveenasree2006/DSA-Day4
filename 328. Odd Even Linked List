@@ -11,7 +11,6 @@ class Solution {
             even.next=nexteven;
             even=nexteven;
         }
-        return head;
-    
+        return head; 
     }
 }
