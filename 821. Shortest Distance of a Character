@@ -17,5 +17,5 @@ class Solution(object):
             if s[i] == c:
                 prev = i
             ans[i] = min(ans[i], prev - i)
-                return ans
+        return ans
         
