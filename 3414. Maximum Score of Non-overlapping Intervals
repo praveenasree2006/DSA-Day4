@@ -19,7 +19,6 @@ class Solution {
                 indices[i][j] = new ArrayList<>();
             }
         }
-
         for (int i = 0; i < n; i++) {
             int l = arr[i][0],
                 weight = arr[i][2],
