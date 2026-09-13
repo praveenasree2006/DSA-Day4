@@ -8,6 +8,6 @@ class Solution {
             else slots++;
         }
         return slots == 0;
-        
+    
     }
 }
