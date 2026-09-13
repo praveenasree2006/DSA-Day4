@@ -52,7 +52,6 @@ class Solution {
         }
         return ans;
     }
-
     private int binarySearch(int[][] arr, int end, int target) {
         int left = 0,
             right = end;
