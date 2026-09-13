@@ -5,4 +5,4 @@ class Solution {
             res[i] = k > 1 ? (k-- % 2 != 0 ? l++ : r--) : l++;
         return res;     
     }
-}
+
