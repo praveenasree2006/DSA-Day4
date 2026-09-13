@@ -34,7 +34,6 @@ class Solution {
                     indices[i + 1][j] = new ArrayList<>(indices[i][j]);
                     continue;
                 }
-
                 List<Integer> newIndex = new ArrayList<>(indices[k][j - 1]);
                 newIndex.add(idx);
                 Collections.sort(newIndex);
